@@ -1,5 +1,7 @@
 # LoginApp
 
+<b> Description </b>
+
 This is an ASP.NET example for register and login users from database and it runs on localhost.
 
 The homepage is for user register and when the user registers he has to click the login button on the menubar.
