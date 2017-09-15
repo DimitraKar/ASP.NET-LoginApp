@@ -36,6 +36,7 @@ namespace WebApplication8
                     DataView dv = (DataView)sds.Select(DataSourceSelectArguments.Empty);
                      if (dv.Count == 0)
         {
+            Mess.Visible = true;
             Mess.Text = "Invalid username and password!";
             return;
         }
